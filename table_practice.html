@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+
+  <style>
+    table {border-collapse: collapse;}
+    table, th, tr, td {border: 1px solid black;
+                   padding: 10px; }
+    caption {font-weight: bold;
+              margin-bottom: 15px;}
+    tr:nth-child(even) {background-color: lightblue}
+    th {background-color: grey;
+        color:white;}
+    .dog_type {color:blue}
+    tr:hover {background-color:red; color:white;}
+
+    .beagle_data > .dog_type {color:purple}
+
+    .col_dog_type {background-color:purple}
+
+</head>
+<body>
+
+  <table class="dog_graph">
+    <caption>Graph concerning dogs
+    <colgroup><col span="2" class="col_dog_type">
+    </colgroup>
+    <tablehead><th>Dog Types</th><th>Number of Dogs</th>
+    </tablehead>
+      <tablebody>
+        <tr class="beagle_data"><td class="dog_type">Beagles</td><td>25</td>
+        <tr><td class="dog_type">Huskies</td><td>33</td>
+        <tr><td class="dog_type">Golden Retrievers</td><td>33</td>
+        <tr><td class="dog_type">Poodles</td><td>11</td>
+      </tablebody>
+
+  </table>
+
+</body>
+</html>
