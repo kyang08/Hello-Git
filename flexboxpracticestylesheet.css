@@ -1,0 +1,38 @@
+.flexboxcontainer {
+  display:flex;
+  background-color:lightblue;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flexboxcontainer > div {
+  background-color:darkblue;
+  border: solid 1px black;
+  height: 300px;
+  width: 400px;
+  align-items: center;
+
+}
+
+/* images */
+
+.box > img {
+  display: block;
+  height: 250px;
+  width: 300px;
+  margin: auto;
+ }
+
+/* text */
+
+.box > p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-family: arial;
+}
+
+.flexboxcontainer > .box > p {
+
+}
